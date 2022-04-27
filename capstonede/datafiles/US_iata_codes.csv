@@ -1,0 +1,438 @@
+City,State,Country,Code,Continent
+Aberdeen, SD,USA,ABR,North America
+Abilene, TX,USA,ABI,North America
+Akron, OH,USA,CAK,North America
+Albany, GA,USA,ABY,North America
+Albany, NY,USA,ALB,North America
+Albuquerque, NM,USA,ABQ,North America
+Alexandria, La,USA,ESF,North America
+Allentown, PA,USA,ABE,North America
+Altoona, PA,USA,AOO,North America
+Amarillo, TX,USA,AMA,North America
+Anchorage, AK,USA,ANC,North America
+Ann Arbor, MI,USA,ARB,North America
+Anniston, AL,USA,ANB,North America
+Appelton/Neenah/Menasha, WI,USA,ATW,North America
+Asheville, NC,USA,AVL,North America
+Aspen Snowmass, CO,USA,ASE,North America
+Athens, GA,USA,AHN,North America
+Athens, OH,USA,ATO,North America
+Atlanta, Hartsfield Atlanta Int'l Airport,USA,ATL,North America
+Atlantic City, NJ,USA,ACY,North America
+Augusta, GA,USA,AGS,North America
+Augusta, ME,USA,AUG,North America
+Austin, TX,USA,AUS,North America
+Bakersfield, CA,USA,BFL,North America
+Baltimore Washington Int'l Airport; MD,USA,BWI,North America
+Bangor, ME,USA,BGR,North America
+Baton Rouge, La,USA,BTR,North America
+Beaumont/Pt. Arthur, TX,USA,BPT,North America
+Beckley, WV,USA,BKW,North America
+Bellingham, WA,USA,BLI,North America
+Bemidji, MN,USA,BJI,North America
+Benton Harbour, MI,USA,BEH,North America
+Bethel, AK,USA,BET,North America
+Billings, MT,USA,BIL,North America
+Birmingham, AL,USA,BHM,North America
+Bismarck/Mandan, ND,USA,BIS,North America
+Bloomington, IL,USA,BMI,North America
+Bloomington, IN,USA,BMG,North America
+Bluefield, WV,USA,BLF,North America
+Boise, ID,USA,BOI,North America
+Borrego Springs, CA,USA,BXS,North America
+Boston - Logan, MA,USA,BOS,North America
+Bozeman, MT,USA,BZN,North America
+Bradford/Warren, PA/Olean, NY,USA,BFD,North America
+Brainerd, MN,USA,BRD,North America
+Bridgeport, CT,USA,BDR,North America
+Brookings, SD,USA,BKX,North America
+Brunswick, GA,USA,BQK,North America
+Buffalo/Niagara Falls, NY,USA,BUF,North America
+Bullhead City, NV,USA,BHC,North America
+Burbank, CA,USA,BUR,North America
+Burlington, IA,USA,BRL,North America
+Burlington, VT,USA,BTV,North America
+Butte, MT,USA,BTM,North America
+Carlsbad, CA,USA,CLD,North America
+Casper, WY,USA,CPR,North America
+Cedar City, UT,USA,CDC,North America
+Cedar Rapids, IA,USA,CID,North America
+Champaign, IL,USA,CMI,North America
+Charleston, SC,USA,CHS,North America
+Charleston, WV,USA,CRW,North America
+Charlotte, NC,USA,CLT,North America
+Charlottesville, VA,USA,CHO,North America
+Chattanooga, TN,USA,CHA,North America
+Cheyenne, WY,USA,CYS,North America
+Chicago, Midway, IL,USA,MDW,North America
+Chicago O'Hare Int'l Airport, IL,USA,ORD,North America
+Chicago, IL,USA,CHI,North America
+Chico, CA,USA,CIC,North America
+Cincinnati, OH,USA,CVG,North America
+Clarksburg, WV,USA,CKB,North America
+Cleveland, Burke Lakefront, OH,USA,BKL,North America
+Cleveland, Hopkins, OH,USA,CLE,North America
+Cody/Powell/Yellowstone, WY,USA,COD,North America
+Coffmann Cove, AK,USA,KCC,North America
+College Station/Bryan, TX,USA,CLL,North America
+Colorado Springs, CO,USA,COS,North America
+Columbia, SC,USA,CAE,North America
+Columbus, GA,USA,CSG,North America
+Columbus, OH,USA,CMH,North America
+Concord, CA,USA,CCR,North America
+Cordova, AK,USA,CDV,North America
+Corpus Christi, TX,USA,CRP,North America
+Craig, AK,USA,CGA,North America
+Crescent City, CA,USA,CEC,North America
+Dallas, Love Field, TX,USA,DAL,North America
+Dallas/Ft. Worth, TX,USA,DFW,North America
+Danville, VA,USA,DAN,North America
+Dayton, OH,USA,DAY,North America
+Daytona Beach, FL,USA,DAB,North America
+Decatur, IL,USA,DEC,North America
+Denver International Airport, CO,USA,DEN,North America
+Des Moines, IA,USA,DSM,North America
+Detroit City, MI,USA,DET,North America
+Detroit Metropolitan Wayne County Airport, MI,USA,DTW,North America
+Detroit Metropolitan Area, MI,USA,DTT,North America
+Devils Lake, ND,USA,DVL,North America
+Dillingham, AK,USA,DLG,North America
+Dothan, AL,USA,DHN,North America
+Dubois, PA,USA,DUJ,North America
+Dubuque, IA,USA,DBQ,North America
+Duluth, MN/Superior, WI,USA,DLH,North America
+Durango, CO,USA,DRO,North America
+Dutch Harbor, AK,USA,DUT,North America
+Eau Clarie, WI,USA,EAU,North America
+El Paso, TX,USA,ELP,North America
+Elkhart, IN,USA,EKI,North America
+Elko, NV,USA,EKO,North America
+Elmira, NY,USA,ELM,North America
+Ely, NV,USA,ELY,North America
+Erie, PA,USA,ERI,North America
+Escabana, MI,USA,ESC,North America
+Eugene, OR,USA,EUG,North America
+Eureka, CA,USA,ACV,North America
+Evansville, IN,USA,EVV,North America
+Fairbanks, AK,USA,FAI,North America
+Fargo, ND, MN,USA,FAR,North America
+Farmington, NM,USA,FMN,North America
+Fayetteville, AR,USA,FYV,North America
+Fayetteville/Ft. Bragg, NC,USA,FAY,North America
+Flagstaff, AZ,USA,FLG,North America
+Flint, MI,USA,FNT,North America
+Florence, SC,USA,FLO,North America
+Fort Dodge, IA,USA,FOD,North America
+Fort Huachuca/Sierra Vista, AZ,USA,FHU,North America
+Fort Lauderdale/Hollywood, FL,USA,FLL,North America
+Fort Myers, Metropolitan Area, FL,USA,FMY,North America
+Fort Myers, Southwest Florida Reg, FL,USA,RSW,North America
+Fort Smith, AR,USA,FSM,North America
+Fort Walton Beach, FL,USA,VPS,North America
+Fort Wayne, IN,USA,FWA,North America
+Franklin/Oil City, PA,USA,FKL,North America
+Fresno, CA,USA,FAT,North America
+Gadsden, AL,USA,GAD,North America
+Gainesville, FL,USA,GNV,North America
+Gilette, WY,USA,GCC,North America
+Glasgow, MT,USA,GGW,North America
+Glendive, MT,USA,GDV,North America
+Grand Canyon, AZ,USA,GCN,North America
+Grand Forks, ND,USA,GFK,North America
+Grand Junction, CO,USA,GJT,North America
+Grand Rapids, MI,USA,GRR,North America
+Grand Rapids, MN,USA,GPZ,North America
+Great Falls, MT,USA,GTF,North America
+Green Bay, WI,USA,GRB,North America
+Greenbrier/Lewisburg, WV,USA,LWB,North America
+Greensboro/Winston Salem, NC,USA,GSO,North America
+Greenville, MS,USA,GLH,North America
+Greenville, NC,USA,PGV,North America
+Greenville/Spartanburg, SC,USA,GSP,North America
+Groton/New London, CT,USA,GON,North America
+Gulfport/Biloxi, MS,USA,GPT,North America
+Gunnison/Crested Butte, CO,USA,GUC,North America
+Haines, AK,USA,HNS,North America
+Hancock, MI,USA,CMX,North America
+Harlington/South Padre Island, TX,USA,HRL,North America
+Harrisburg, PA - Harrisburg Skyport,USA,HAR,North America
+Harrisburg, PA - Harrisburg Int'l,USA,MDT,North America
+Hartford, CT/Springfield, MA,USA,BDL,North America
+Havre, MT,USA,HVR,North America
+Helena, MT,USA,HLN,North America
+Hibbing, MN,USA,HIB,North America
+Hickory, NC,USA,HKY,North America
+Hilo, HI,USA,ITO,North America
+Hilton Head Island, SC,USA,HHH,North America
+Homer, AK,USA,HOM,North America
+Honolulu, HI,USA,HNL,North America
+Hoonah, AK,USA,HNH,North America
+Houston, Hobby, TX,USA,HOU,North America
+Houston, Intercontinental, TX,USA,IAH,North America
+Huntington, OH,USA,HTS,North America
+Huntsville, AL,USA,HSV,North America
+Huron, SD,USA,HON,North America
+Hyannis, MA,USA,HYA,North America
+Hydaburg, AK,USA,HYG,North America
+Idaho Falls, ID,USA,IDA,North America
+Iliamna, AK,USA,ILI,North America
+Imperial, CA,USA,IPL,North America
+Indianapolis, IN,USA,IND,North America
+International Falls, MN,USA,INL,North America
+Inykern, CA,USA,IYK,North America
+Ithaca/Cortland, NY,USA,ITH,North America
+Jackson Hole, WY,USA,JAC,North America
+Jackson, MI,USA,JXN,North America
+Jackson, MS,USA,JAN,North America
+Jackson, TN,USA,MKL,North America
+Jacksonville, FL,USA,JAX,North America
+Jacksonville, NC,USA,OAJ,North America
+Jamestown, ND,USA,JMS,North America
+Jamestown, NY,USA,JHW,North America
+Johnstown, PA,USA,JST,North America
+Joplin, MO,USA,JLN,North America
+Juneau, AK - Juneau Int'l,USA,JNU,North America
+Kahului, HI,USA,OGG,North America
+Kalamazoo/Battle Creek, MI,USA,AZO,North America
+Kalispell, MT,USA,FCA,North America
+Kamuela, HI,USA,MUE,North America
+Kansas City, MO - Int'l,USA,MCI,North America
+Kapalua West, HI,USA,JHM,North America
+Kaunakakai, HI,USA,MKK,North America
+Kenai, AK,USA,ENA,North America
+Ketchikan, AK,USA,KTN,North America
+Key West, FL,USA,EYW,North America
+Killeem, TX,USA,ILE,North America
+King Salomon, AK,USA,AKN,North America
+Kingston, NC,USA,ISO,North America
+Klamath Fall, OR,USA,LMT,North America
+Klawock, AK,USA,KLW,North America
+Knoxville, TN,USA,TYS,North America
+Kodiak, AK,USA,ADQ,North America
+Kona, HI,USA,KOA,North America
+Kotzbue, AK,USA,OTZ,North America
+Labouchere Bay, AK,USA,WLB,North America
+La Crosse, WI,USA,LSE,North America
+Lafayette, IN,USA,LAF,North America
+Lafayette, La,USA,LFT,North America
+Lake Charles, La,USA,LCH,North America
+Lake Havasu City, AZ,USA,HII,North America
+Lake Tahoe, CA,USA,TVL,North America
+Lanai City, HI,USA,LNY,North America
+Lancaster, PA,USA,LNS,North America
+Lansing, MI,USA,LAN,North America
+Laramie, WY,USA,LAR,North America
+Laredo, TX,USA,LRD,North America
+Las Vegas, NV,USA,LAS,North America
+Latrobe, PA,USA,LBE,North America
+Laurel/Hattisburg, MS,USA,PIB,North America
+Lawton, OK,USA,LAW,North America
+Lebanon, NH,USA,LEB,North America
+Lewiston, ID,USA,LWS,North America
+Lewistown, MT,USA,LWT,North America
+Lexington, KY,USA,LEX,North America
+Lihue, HI,USA,LIH,North America
+Lincoln, NE,USA,LNK,North America
+Little Rock, AR,USA,LIT,North America
+Long Beach, CA,USA,LGB,North America
+Long Island, AK,USA,LIJ,North America
+Long Island, Islip, NY - Mac Arthur,USA,ISP,North America
+Longview/Kilgore, TX,USA,GGG,North America
+Los Angeles, CA - Int'l,USA,LAX,North America
+Louisville, KY,USA,SDF,North America
+Lubbock, TX,USA,LBB,North America
+Lynchburg, VA,USA,LYH,North America
+Macon, GA,USA,MCN,North America
+Madison, WI,USA,MSN,North America
+Manchester, NH,USA,MHT,North America
+Marathon, FL,USA,MTH,North America
+Marquette, MI,USA,MQT,North America
+Martha's Vineyard, MA,USA,MVY,North America
+Mason City, IA,USA,MCW,North America
+Mattoon, IL,USA,MTO,North America
+McAllen, TX,USA,MFE,North America
+Medford, OR,USA,MFR,North America
+Melbourne, FL,USA,MLB,North America
+Memphis, TN,USA,MEM,North America
+Merced, CA,USA,MCE,North America
+Meridian, MS,USA,MEI,North America
+Metlakatla, AK,USA,MTM,North America
+Miami, FL,USA,MIA,North America
+Midland/Odessa, TX,USA,MAF,North America
+Miles City, MT,USA,MLS,North America
+Milwaukee, WI,USA,MKE,North America
+Minneapolis - St. Paul Int'l Airport, MN,USA,MSP,North America
+Minot, ND,USA,MOT,North America
+Missula, MT,USA,MSO,North America
+Mitchell, SD,USA,MHE,North America
+Mobile, AL - Pascagoula, MS,USA,MOB,North America
+Modesto, CA,USA,MOD,North America
+Moline/Quad Cities, IL,USA,MLI,North America
+Monroe, La,USA,MLU,North America
+Monterey, CA,USA,MRY,North America
+Montgomery, AL,USA,MGM,North America
+Montrose/Tellruide, CO,USA,MTJ,North America
+Morgantown, WV,USA,MGW,North America
+Moses Lake, WA,USA,MWH,North America
+Mt. McKinley, AK,USA,MCL,North America
+Muscle Shoals, AL,USA,MSL,North America
+Muskegon, MI,USA,MKG,North America
+Myrtle Beach, SC,USA,MYR,North America
+Nantucket, MA,USA,ACK,North America
+Naples, FL,USA,APF,North America
+Nashville, TN,USA,BNA,North America
+New Bern, NC,USA,EWN,North America
+New Haven, CT,USA,HVN,North America
+New Orleans, La,USA,MSY,North America
+New York - John F. Kennedy, NY,USA,JFK,North America
+New York - La Guardia, NY,USA,LGA,North America
+New York - Newark, NJ,USA,EWR,North America
+New York, NY,USA,NYC,North America
+Newburgh, NY,USA,SWF,North America
+Newport News/Williamsburg, VA,USA,PHF,North America
+Niagara Falls Int'l,USA,IAG,North America
+Nome, AK,USA,OME,North America
+Norfolk/Virginia Beach, VA,USA,ORF,North America
+North Bend, OR,USA,OTH,North America
+Oakland, CA,USA,OAK,North America
+Oklahoma City, OK - Will Rogers World,USA,OKC,North America
+Omaha, NE,USA,OMA,North America
+Ontario, CA,USA,ONT,North America
+Orange County (Santa Ana), CA,USA,SNA,North America
+Orlando Metropolitan Area, FL,USA,ORL,North America
+Oshkosh, WI,USA,OSH,North America
+Owensboro, KY,USA,OWB,North America
+Oxnard, CA,USA,OXR,North America
+Paducah, KY,USA,PAH,North America
+Page/Lake Powell, AZ,USA,PGA,North America
+Pakersburg, WV/Marietta, OH,USA,PKB,North America
+Palm Springs, CA,USA,PSP,North America
+Palmdale/Lancaster, CA,USA,PMD,North America
+Panama City, FL,USA,PFN,North America
+Pasco, WA,USA,PSC,North America
+Pellston, MI,USA,PLN,North America
+Pendelton, OR,USA,PDT,North America
+Pensacola, FL,USA,PNS,North America
+Peoria/Bloomington, IL,USA,PIA,North America
+Petersburg, AK,USA,PSG,North America
+Philadelphia, PA - Int'l,USA,PHL,North America
+Phoenix, AZ - Sky Harbor Int'l,USA,PHX,North America
+Pierre, SD,USA,PIR,North America
+Pittsburgh Int'l Airport, PA,USA,PIT,North America
+Plattsburgh, NY,USA,PLB,North America
+Pocatello, ID,USA,PIH,North America
+Port Angeles, WA,USA,CLM,North America
+Portland, ME,USA,PWM,North America
+Portland Int'l, OR,USA,PDX,North America
+Poughkeepsie, NY,USA,POU,North America
+Presque Island, ME,USA,PQI,North America
+Providence, RI,USA,PVD,North America
+Prudhoe Bay, AK,USA,SCC,North America
+Pueblo, CO,USA,PUB,North America
+Pullman, WA,USA,PUW,North America
+Quincy, IL,USA,UIN,North America
+Raleigh/Durham, NC,USA,RDU,North America
+Rapid City, SD,USA,RAP,North America
+Reading, PA,USA,RDG,North America
+Redding, CA,USA,RDD,North America
+Redmond, OR,USA,RDM,North America
+Reno, NV,USA,RNO,North America
+Rhinelander, WI,USA,RHI,North America
+Richmond, VA,USA,RIC,North America
+Roanoke, VA,USA,ROA,North America
+Rochester, MN,USA,RST,North America
+Rochester, NY,USA,ROC,North America
+Rock Springs, WY,USA,RKS,North America
+Rockford, IL,USA,RFD,North America
+Rockland, ME,USA,RKD,North America
+Rocky Mount - Wilson, NC,USA,RWI,North America
+Sacramento, CA,USA,SMF,North America
+Saginaw/Bay City/Midland, MI,USA,MBS,North America
+Salem, OR,USA,SLE,North America
+Salinas, CA,USA,SNS,North America
+Salisbury, MD,USA,SBY,North America
+Salt Lake City, UT,USA,SLC,North America
+San Angelo, TX,USA,SJT,North America
+San Antonio, TX,USA,SAT,North America
+San Diego - Lindberg Field Int'l, CA,USA,SAN,North America
+San Francisco - Int'l Airport, SA,USA,SFO,North America
+San Jose, CA,USA,SJC,North America
+San Luis Obisco, CA,USA,SBP,North America
+Santa Barbara, CA,USA,SBA,North America
+Santa Maria, CA,USA,SMX,North America
+Santa Rosa, CA,USA,STS,North America
+Sarasota/Bradenton, FL,USA,SRQ,North America
+Savannah, GA,USA,SAV,North America
+Scottsdale, AZ,USA,SCF,North America
+Seattle/Tacoma, WA,USA,SEA,North America
+Shenandoah Valley/Stauton, VA,USA,SHD,North America
+Sheridan, WY,USA,SHR,North America
+Shreveport, La,USA,SHV,North America
+Sidney, MT,USA,SDY,North America
+Sioux City, IA,USA,SUX,North America
+Sioux Falls, SD,USA,FSD,North America
+Sitka, AK,USA,SIT,North America
+Skagway, AK,USA,SGY,North America
+South Bend, IN,USA,SBN,North America
+Spokane, WA,USA,GEG,North America
+Springfield, IL,USA,SPI,North America
+Springfield, MO,USA,SGF,North America
+St. George, UT,USA,SGU,North America
+St. Louis - Lambert, MO,USA,STL,North America
+State College/Belefonte, PA,USA,SCE,North America
+Steamboat Springs, CO,USA,HDN,North America
+Stockton, CA,USA,SCK,North America
+Sun Valley, ID,USA,SUN,North America
+Syracuse, NY,USA,SYR,North America
+Talkeetna, AK,USA,TKA,North America
+Tallahassee, FL,USA,TLH,North America
+Tampa Int'l, FL,USA,TPA,North America
+Telluride, CO,USA,TEX,North America
+Terre Haute, IN,USA,HUF,North America
+Texarkana, AR,USA,TXK,North America
+Thief River Falls, MN,USA,TVF,North America
+Thorne Bay, AK,USA,KTB,North America
+Toledo, OH,USA,TOL,North America
+Traverse City, MI,USA,TVC,North America
+Trenton/Princeton, NJ,USA,TTN,North America
+Tri-Cities Regional, TN/VA,USA,TRI,North America
+Tucson, AZ,USA,TUS,North America
+Tulepo, MS,USA,TUP,North America
+Tulsa, OK,USA,TUL,North America
+Tuscaloosa, AL,USA,TCL,North America
+Twin Falls, ID,USA,TWF,North America
+Tyler, TX,USA,TYR,North America
+Utica, NY,USA,UCA,North America
+Vail, CO,USA,EGE,North America
+Valdez, AK,USA,VDZ,North America
+Valdosta, GA,USA,VLD,North America
+Vernal, UT,USA,VEL,North America
+Vero Beach/Ft. Pierce, FL,USA,VRB,North America
+Visalia, CA,USA,VIS,North America
+Waco, TX,USA,ACT,North America
+Walla Walla, WA,USA,ALW,North America
+Washington DC - Baltimore Washington Int'l,USA,BWI,North America
+Washington DC - Dulles Int'l,USA,IAD,North America
+Washington DC - Ronald Reagan National,USA,DCA,North America
+Washington, DC,USA,WAS,North America
+Waterloo, IA,USA,ALO,North America
+Watertown, SD,USA,ATY,North America
+Wausau/Stevens Point, WI,USA,CWA,North America
+Wenatchee, WA,USA,EAT,North America
+West Palm Beach, FL,USA,PBI,North America
+West Yellowstone, MT,USA,WYS,North America
+White Plains, NY,USA,HPN,North America
+Wichita Falls, TX,USA,SPS,North America
+Wichita, KS,USA,ICT,North America
+Wilkes Barre/Scranton, PA,USA,AVP,North America
+Williamsport, PA,USA,IPT,North America
+Williston, ND,USA,ISL,North America
+Wilmington, NC,USA,ILM,North America
+Wolf Point, MT,USA,OLF,North America
+Worcester, MA,USA,ORH,North America
+Worland, WY,USA,WRL,North America
+Wrangell, AK,USA,WRG,North America
+Yakima, WA,USA,YKM,North America
+Yakutat, AK,USA,YAK,North America
+Yuma, AZ,USA,YUM,North America
+Orlando Int'l Airport, FL,USA,ORL,North America
