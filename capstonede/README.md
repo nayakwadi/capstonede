@@ -113,7 +113,7 @@ tbl_datetime:
 The conceptual data model is designed as following:
 Data Model diagram:
 
-![tables in immigration by city](/project_files/assets/Capstone_DataModel.png "Immigration By City Data Model")
+![tables in immigration by city](assets/Capstone_DataModel.png "Immigration By City Data Model")
 
 
 #### 3.2 Mapping Out Data Pipelines
