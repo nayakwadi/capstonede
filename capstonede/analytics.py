@@ -59,7 +59,7 @@ def generate_immigration_by_city_data(spark, input_path):
                                                 imm.arrival_date,  
                                                 dt.month AS arrival_month,
                                                 dt.year AS arrival_year,
-                                                imm.visatype AS arrival_visa_type,             
+                                                imm.i94visa AS arrival_visa_type,             
                                                 imm.gender,   
                                                 CAST(imm.birth_year AS int) AS birth_year,
                                                 cdem.total_population AS destination_city_population,
