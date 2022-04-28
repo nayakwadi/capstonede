@@ -32,14 +32,14 @@ def create_spark_session():
     return spark
 
 
-def process_immigration_data(spark, input_path, output_path):
+def process_immigration_data(spark, input_path_immigration_data, output_path):
     """
     - Read immigration sas data files, apply cleansing and generate final data
     - Read data files extracted out of various sas file section and generate final data  
     """
     # get filepath to raw immigration data files
-    input_parquet_files_path = os.path.join(input_path, '*/*.parquet')
-    #input_parquet_files_path = input_path +'apr2016/*.parquet'
+    input_parquet_files_path = os.path.join(input_path_immigration_data, '*/*.parquet')
+    #input_parquet_files_path = input_path_immigration_data +'apr2016/*.parquet'
     print("input path is", input_parquet_files_path)
     df_staging_immigration_data = spark.read.parquet(input_parquet_files_path)
     
@@ -93,7 +93,6 @@ def process_immigration_data(spark, input_path, output_path):
                                                        ,i94addr as state_code
                                                        ,departure_date
                                                        ,i94bir as age
-                                                       ,IMM.visatype 
                                                        ,I94VISA.visa_type as i94visa
                                                        ,biryear as birth_year
                                                        ,gender
@@ -105,8 +104,7 @@ def process_immigration_data(spark, input_path, output_path):
                                         LEFT JOIN tbl_I94MODE_Mapping AS I94MODE on IMM.i94mode = I94MODE.mode_name 
                                         LEFT JOIN tbl_I94PORT_Mapping AS I94PORT on IMM.i94port = I94PORT.city_code 
                                         LEFT JOIN tbl_I94VISA_Mapping AS I94VISA on IMM.visatype = I94VISA.visa_type 
-                                        WHERE IMM.cicid IS NOT NULL AND IMM.arrdate IS NOT NULL
-                                        """)
+                                        WHERE IMM.cicid IS NOT NULL AND IMM.arrdate IS NOT NULL """)
 
     # perform data quality check
     tbl_immigration.createOrReplaceTempView("final_immigration")
@@ -168,8 +166,7 @@ def process_airport_codes(spark, input_files_path, output_files_path):
                                            ap.local_code,
                                            ap.coordinates,
                                            ap.name AS airport_name,
-                                           ap.type AS airport_type,
-                                           ap.ident AS airport_identity
+                                           ap.type AS airport_type
                                     FROM tbl_stg_airport_codes ap
                                     JOIN tbl_stg_iata_codes ia
                                       ON  ap.iata_code=ia.Code

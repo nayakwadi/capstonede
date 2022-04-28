@@ -2,17 +2,24 @@
 ### Data Engineering Capstone Project
 
 #### Project Summary
-Each year various travelers from various countries in the world visit US. Travelers often enter US via airports, based on a specific visa type. This project provides an analysis about travelers who arrive at various city airports and city specific demographics.
+Each year various travelers from various countries in the world visit US. Travelers often enter US via airports, based on a specific visa type. This project  refers to Immigration Data, Airport Data, Demographic Data and   provides an analysis about:
+a. travelers who arrive at various city airports and city specific demographics.
+b. provides no of travelers arriving per city per month
+c. provides no of travelers per country of origin per month
+d. provides no of traverlers per visa type
 
-This project  refers to Immigration Data, Airport Data, Demographic Data.
-Since the provded raw data sources are not clean, external data sources are referred.
+Based on above analytics, there are business opportunities like:
+a. Airlines can make a business decision to arrange more flights in specific routes(countries)
+b. Local/International travel agencies can provide more tourism packages
+c. US Immigration Agency can provide more services for various visa types
+d. Local city population info would help internation travelers to decide on destination they would like to visit.
 
 ### Step 1: Scope the Project and Gather Data
 
 #### Scope 
 Refer to the data sources for immigration, airport_codes, US demographics data. Generate some sort of analytics which provides information about immigrant visitors entered US , through city airports. Provide some demographics as well for the city.
 
-Since the datasets are open ended, do thorough analysis and use necessary external data sources, look for forming proper data relation.
+Since the datasets are open ended, do thorough analysis and use necessary external data sources, look for forming proper data relation.Since the provded raw data sources are not clean, external data sources are referred.
 After getting the relationship between the Dataset, design data models, building the data pipelines in Data Lakes for creating the data models, check Data Quality, write SQL queries to answer questions and write summary docs.
 
 Components used in this project:
@@ -38,9 +45,14 @@ https://docs.google.com/spreadsheets/d/1eepIWOHicQsLyZsb0mSXGPTXDp3vlql-aGuy1AWJ
 #### 3.1 Conceptual Data Model
 Map out the conceptual data model and explain why you chose that model:
 
-Intent is to explore the immigraton data by city.
+Based on the final purpose of analytics data to be obtained ,intent is to explore the immigraton data by city and to provide the traveler patterns by visa type, country of origin etc.
 
-Four tables are to be created with appropriate columns and by reading data sources immigration data, airport_codes, US city Demographics.<br>
+Four tables are to be created with appropriate columns and by reading data sources immigration data, airport_codes, US city Demographics.
+The data schema referred here is a Relational Schema. Below mentioned Four tables are created with specific columns and relations between the tables.
+Advantage of Relational Schema: Since the source datasets are open ended, appropriate fields from each source are considered in order to achieve the specified requirement. If any additional data sources are to be considered to retreive extra data for analytics, it would be easy to map the data based on city, state, iata_code etc.
+
+With more specific assumptions and rules , there is a possibility to generate more precise data. This can be further used to create a star schema model as well. But this might reduce the data quantity and might not be helpful to have good enough amount of analytics. 
+<br>
     
     a.tbl_immigration: Data is read from sas files path and then apply appropraite filters,cleaning to the dataset. Then generate final table by selecting specific columns. A parquet format table is created in local storage path.
 
@@ -53,62 +65,61 @@ Four tables are to be created with appropriate columns and by reading data sourc
 </br>
 
 tbl_immigration:
-|-- cicid: integer 
-|-- i94yr: integer 
-|-- i94mon: integer 
-|-- country_of_origin: string
-|-- i94port: string 
-|-- i94port_city: string 
-|-- i94port_statecode: string 
-|-- arrival_date: date 
-|-- i94mode: string 
-|-- state_code: string 
-|-- departure_date: date 
-|-- age: double 
-|-- visatype: string 
-|-- i94visa: string 
-|-- birth_year: integer
-|-- gender: string
-|-- airline: string
-|-- fltno: string 
+*  cicid (Primary key): integer ==> unique number for immigrant
+*  i94yr: integer ==>  year
+*  i94mon: integer ==> month
+*  country_of_origin: string ==> citizenship of immigrant
+*  i94port: string ==>  port of entry city, state
+*  i94port_city: string ==> City
+*  i94port_statecode: string ==> State
+*  arrival_date: date ==> arrival date of immigrant
+*  i94mode: string ==> Travel by air,land, sea
+*  state_code: string ==> State Code 
+*  departure_date: date ==> departure date of immigrant
+*  age: double ==> age of immigrant 
+*  i94visa: string ==> visa type(Business,Pleasure, Student)
+*  birth_year: integer ==> year of birth for immigrant
+*  gender: string ==>gender (male or female)
+*  airline: string ==> traveler airline info
+*  fltno: string ==> traveler flight no
 
 tbl_city_airport_info:
- |-- iata_code: string 
- |-- city: string 
- |-- state_code: string 
- |-- continent: string 
- |-- iso_country: string 
- |-- iso_region: string 
- |-- municipality: string 
- |-- gps_code: string 
- |-- local_code: string 
- |-- coordinates: string 
- |-- airport_name: string 
- |-- airport_type: string 
- |-- airport_identity: string 
+ *  iata_code (Primary key): string ==> iata code for the airport
+ *  city: string ==> City
+ *  state_code: string ==>state code
+ *  continent: string ==> continent 
+ *  iso_country: string ==> country 
+ *  iso_region: string ==> state
+ *  municipality: string ==> municipality airport belongs to 
+ *  gps_code: string ==> gps code of the airport
+ *  local_code: string ==> local airport code
+ *  coordinates: string ==> geographical coordinates
+ *  airport_name: string ==> Name of the airport
+ *  airport_type: string ==> type of airport(large,medium closed etc.)
 
 tbl_us_city_demographics:
-|-- city: string 
- |-- state: string 
- |-- median_age: string 
- |-- male_population: integer 
- |-- female_population: integer 
- |-- total_population: integer 
- |-- number_of_veterans: integer 
- |-- foreign_born: string 
- |-- average_household_size: integer 
- |-- state_code: string 
- |-- race: string 
- |-- count: integer 
+Please nore columns city & state_code are used to form a composite primary key
+ *  city(Primary key): string ==> city name
+ *  state_code (Primary key): string ==> state code
+ *  state: string ==> complete state name
+ *  median_age: string ==> median age of population in city
+ *  male_population: integer ==> No of male population in city
+ *  female_population: integer ==> No of female population in city
+ *  total_population: integer ==> Total population in city
+ *  number_of_veterans: integer  ==> No of veterans in city
+ *  foreign_born: string ==> No of Foreign born in city
+ *  average_household_size: double ==> Average household size in city 
+ *  race: string ==> race types living in city
+ *  count: integer ==> count of race type people
 
 
 tbl_datetime:
-|-- date_value: date 
- |-- day: integer 
- |-- week: integer 
- |-- month: integer 
- |-- year: integer 
- |-- weekday: integer 
+*  date_value (Primary key): date ==> arrival/departure date value from immigration
+ *  day: integer ==> day no of the year
+ *  week: integer ==> week no of the year
+ *  month: integer ==> month no of the year
+ *  year: integer ==> year value
+ *  weekday: integer ==> weekday no
 
 The conceptual data model is designed as following:
 Data Model diagram:
@@ -136,9 +147,19 @@ List the steps necessary to pipeline the data (Data Lakes) into the chosen data 
     command : python3 download_sas_data.py
 2. Run etl.py to read data from sources and generate tables
     command : python3 etl.py
-3. Run analytics.py to explore the immigration data by city
+3. Run data_quality_checks.py to verify the quality of data
+    command python3 data_quality_checks.py
+4. Run analytics.py to explore the immigration data by city
     command: python3 analytics.py
 
+#### 4.2 row counts in tables
+"tbl_immigration_data" table have 40790529 records                                                                                      
+
+“tbl”_city_airport_info table have 424 records
+
+“tbl_us_city_demographics" table have 2875 records                                                                              
+
+“tbl_datetime” table have 235 records        
 
 #### Clearly state the rationale for the choice of tools and technologies for the project.
 
