@@ -3,16 +3,16 @@
 
 #### Project Summary
 Each year various travelers from various countries in the world visit US. Travelers often enter US via airports, based on a specific visa type. This project  refers to Immigration Data, Airport Data, Demographic Data and   provides an analysis about:
-a. travelers who arrive at various city airports and city specific demographics.
-b. provides no of travelers arriving per city per month
-c. provides no of travelers per country of origin per month
-d. provides no of traverlers per visa type
+* a. travelers who arrive at various city airports and city specific demographics.
+* b. provides no of travelers arriving per city per month
+* c. provides no of travelers per country of origin per month
+* d. provides no of traverlers per visa type
 
 Based on above analytics, there are business opportunities like:
-a. Airlines can make a business decision to arrange more flights in specific routes(countries)
-b. Local/International travel agencies can provide more tourism packages
-c. US Immigration Agency can provide more services for various visa types
-d. Local city population info would help internation travelers to decide on destination they would like to visit.
+* a. Airlines can make a business decision to arrange more flights in specific routes(countries)
+* b. Local/International travel agencies can provide more tourism packages
+* c. US Immigration Agency can provide more services for various visa types
+* d. Local city population info would help internation travelers to decide on destination they would like to visit.
 
 ### Step 1: Scope the Project and Gather Data
 
